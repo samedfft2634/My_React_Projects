@@ -1,0 +1,48 @@
+.App {
+	text-align: center;
+	margin: 2rem;
+}
+
+.searchHeader form {
+	width: 100%;
+}
+
+form input {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid gray;
+	font-size: 2rem;
+}
+
+.imgItems {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.imgItems div img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+
+@media (max-width: 1000px) {
+	.imgItems {
+		grid-template-columns: repeat(2, auto);
+	}
+    form input {
+        width: 80%;
+    }
+}
+@media (max-width: 700px) {
+	.imgItems {
+		grid-template-columns: repeat(1, auto);
+	}
+    form input {
+        width: 100%;
+    }
+}

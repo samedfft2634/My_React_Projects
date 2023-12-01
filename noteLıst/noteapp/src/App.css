@@ -1,0 +1,136 @@
+body{
+  background-color: #cbd5e1
+}
+
+.App {
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.task-create {
+	width: 450px;
+}
+
+.task-update{
+  width: 100%;
+}
+
+.task-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.task-label {
+	margin: 10px 0;
+}
+
+.task-input {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+  background-color: #f3f4f6;
+}
+
+
+.createBtn{
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.update-button{
+  background-color: blueviolet;
+}
+
+.task-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-show{
+  border: none;
+  border-radius: 2rem;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 20px;
+  overflow: hidden;
+  background-color: #e5e7eb;
+}
+
+.todo {
+  white-space: normal;
+  max-height: 100px; 
+  overflow: auto;
+  word-break: break-all;
+  padding: 5px;
+}
+
+.yourTask{
+  white-space: normal;
+  max-height: 50px; 
+  overflow: auto;
+  word-break: break-all;
+  padding: 5px;
+}
+
+.todo::-webkit-scrollbar,.yourTask::-webkit-scrollbar{
+  display: none;
+}
+
+.delBtn{
+  padding: 8px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  margin-right: 10px;
+}
+.editBtn{
+  padding: 8px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2563eb;
+  color: #fff;
+  text-align: center;
+}
+
+.task-title{
+  margin-bottom: 5px;
+  display: flex;
+  gap: .5rem;
+}
+
+.task-btns{
+  text-align: end;
+}
+
+textarea{
+  resize: none;
+}
+@media (max-width:600px) {
+  .task-create {
+    width: 300px;
+  }
+  .task-show{
+    width: 300px;
+    margin: 10px;
+  }
+}

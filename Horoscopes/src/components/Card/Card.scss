@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap");
+
+.cardList {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1300px;
+	margin: 0 auto;
+	gap: 2rem;
+	justify-content: space-evenly;
+	margin: 3rem auto;
+
+	.cardImg {
+		object-fit: cover;
+		position: relative;
+		overflow: hidden;
+		cursor: pointer;
+
+		img {
+			width: 500px;
+			height: 350px;
+			border-radius: 1.5rem;
+			filter: sepia(70%);
+		}
+		.title {
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-radius: 1.5rem;
+			border-top-left-radius: none;
+			padding: 1rem;
+			font-size: 2rem;
+			color: orange;
+			background-color: rgba(0, 0, 0, 0.743);
+		}
+		.img {
+			position: relative;
+		}
+		.date {
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%, 50%);
+			color: orange;
+			padding: 1rem;
+			font-size: 0.8rem;
+			background-color: rgba(0, 0, 0, 0.743);
+			border-radius: 0.5rem;
+		}
+		.description {
+			font-family: "Almendra Display", serif;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			color: #fff;
+			background-color: rgba(0, 0, 0, 0.817);
+			padding: 0.8rem;
+			font-size: 1.5rem;
+			overflow: scroll;
+			border-radius: 1rem;
+			max-height: 75%;
+			text-align: justify;
+			transform: translateY(100%);
+			transition: transform 0.7s ease-in-out;
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+		&:hover .description {
+			transform: translateY(0%);
+		}
+		&:hover img {
+			filter: none;
+		}
+	}
+}
+
+@media (max-width: 700px) {
+	.cardList .cardImg img {
+		width: 350px;
+	}
+}

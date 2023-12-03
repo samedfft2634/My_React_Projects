@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik Distressed;
+}
+body{
+    background: #F0C27B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.App h1 {
+    text-align: center;
+    margin-top: 10rem;
+    letter-spacing: 10px;
+    font-size: 3rem;
+    a{
+        color: black;
+        transition: .7s ease-in-out
+    }
+    &:hover a{
+        color: orange;
+    }
+}

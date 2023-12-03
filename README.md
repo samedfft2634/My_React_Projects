@@ -20,5 +20,11 @@ This folders and files includes react lessons and knowledges .
         <a href="https://lesson-of-reacts-imageapp.vercel.app/" alt="imgApp">ImgApp</a>
       </td>
     </tr>
+    <tr id="3">
+      <td>Horoscopes</td>
+      <td>
+        <a href="https://horoscopes-sage.vercel.app/" alt="imgApp">♈</a>
+      </td>
+    </tr>
   </tbody>
 </table>

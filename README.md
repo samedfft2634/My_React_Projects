@@ -41,7 +41,7 @@ This folders and files includes react lessons and knowledges .
     <tr id="6">
       <td>Hospital </td>
       <td >
-        <a href="https://main--visionary-parfait-789f06.netlify.app/" alt="imgApp" >👨‍💼👩‍💼</a>
+        <a href="https://main--visionary-parfait-789f06.netlify.app/" alt="imgApp" >❤</a>
       </td>
     </tr>
   </tbody>

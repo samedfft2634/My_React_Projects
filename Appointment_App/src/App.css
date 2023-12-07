@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../public/img//back.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.Home {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.AddModal .modalImg {
+	border: 5px solid #fff;
+	border-radius: 10px;
+	transition: transform 0.3s ease, border 0.3s ease;
+}
+.AddModal .modalImg:hover {
+	transform: scale(1.1);
+	border: 5px solid red;
+}
+.AddModal img {
+	width: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.Doctors {
+	margin: 2rem auto;
+	max-width: 1000px;
+}
+.modalContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 2.5rem;
+}
+
+.appointmentList {
+	width: 100%;
+}
+.no-appointments {
+	width: 100%;
+}
+.no-appointments img {
+	width: 70%;
+}
+
+.appointments {
+	width: 100%;
+	background-image: linear-gradient(135deg, #fff0da, #c5d1cd);
+	box-shadow: 0 3px 3px rgba(0 0, 0, 0.3);
+	border-radius: 0.3rem;
+	text-align: start;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+.titles h4 {
+	color: green;
+}
+
+.times {
+	position: relative;
+}
+
+.close {
+	margin-right: 1rem;
+	border-radius: 50%;
+}
+.close:hover {
+	box-shadow: 0 0 20px red;
+}
+
+#circle {
+	color: #fc6c48;
+	font-size: 2.3rem;
+}
+
+.consulted {
+	position: absolute;
+	background-color: rgba(255, 99, 71, 0.889);
+	border: 5px dashed rgb(255, 29, 29);
+	border-radius: 0.5rem;
+	color: #fff;
+	padding: 0.4rem;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	transform: rotate(10deg);
+}
+
+@media (max-width: 1020px) {
+	.appointmentList {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 700px) {
+	.titles h4, h5{
+		font-size: 1rem !important;
+	}
+	.times h4, h5, h6{
+		font-size: 1rem !important;
+	}
+	#circle {
+		font-size: 1.5rem !important;
+	}
+    .consulted {
+        padding: .2rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 500px) {
+	.titles h4, h5{
+		font-size: .8rem !important;
+	}
+	.times h4, h5, h6{
+		font-size: .8rem !important;
+	}
+	#circle {
+		font-size: 1.2rem !important;
+	}
+  
+}
+

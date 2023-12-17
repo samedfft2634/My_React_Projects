@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08faa8fa.css",
+    "main.js": "/static/js/main.11cf0944.js",
+    "static/media/map.svg": "/static/media/map.72d2b81cfc8f04e35a08619a8dc73b32.svg",
+    "static/media/growing-up-woman.svg": "/static/media/growing-up-woman.a158584281f99f0d709c59ea4dee167e.svg",
+    "static/media/woman.svg": "/static/media/woman.05242306d420ecf43e9f6e677b86df07.svg",
+    "static/media/mail.svg": "/static/media/mail.42e0750e7e30127034e5ab11cf316365.svg",
+    "static/media/padlock.svg": "/static/media/padlock.8d2c33d2e558cdfc835d35b8ace79550.svg",
+    "static/media/phone.svg": "/static/media/phone.d017e1ae418c694ba9148c0a9001609c.svg",
+    "index.html": "/index.html",
+    "main.08faa8fa.css.map": "/static/css/main.08faa8fa.css.map",
+    "main.11cf0944.js.map": "/static/js/main.11cf0944.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08faa8fa.css",
+    "static/js/main.11cf0944.js"
+  ]
+}

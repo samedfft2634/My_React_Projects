@@ -50,5 +50,11 @@ This folders and files includes react lessons and knowledges .
         <a href="https://main--warm-parfait-111010.netlify.app/" alt="imgApp" >📝</a>
       </td>
     </tr>
+    <tr id="8">
+      <td>Random User App </td>
+      <td >
+        <a href="https://random-user-app-blue.vercel.app/" alt="imgApp" >👩👨‍🦰</a>
+      </td>
+    </tr>
   </tbody>
 </table>

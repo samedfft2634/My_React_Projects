@@ -56,5 +56,11 @@ This folders and files includes react lessons and knowledges .
         <a href="https://random-user-app-blue.vercel.app/" alt="imgApp" >👩👨‍🦰</a>
       </td>
     </tr>
+    <tr id="9">
+      <td>Shopping App </td>
+      <td >
+        <a href="https://c-shopping-git-main-samedfft2634.vercel.app/" alt="imgApp" >🛒</a>
+      </td>
+    </tr>
   </tbody>
 </table>

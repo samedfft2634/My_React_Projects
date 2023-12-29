@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .loginDiv{
+        background: linear-gradient(90deg, rgba(122,184,191,1) 35%, rgba(196,238,242,1) 100%);
+        @apply flex justify-center items-center min-h-screen
+    }
+    .login-input{
+        height: 44px;
+        border-radius: 4px;
+        border: 1px solid #e5e5e5;
+        padding: .6rem;
+        @apply focus:outline-main focus:caret-main
+    }
+    .login-input::placeholder{
+        color: #CDCDCD;
+        @apply font-jetbrain text-[12px] font-[400]
+    }
+    .card-div{
+        @apply mt-6 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10 xl:gap-x-8
+    }
+    .container{
+        @apply mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8
+    }
+}

@@ -1,5 +1,6 @@
 # My Projects
-This folders and files includes react lessons and knowledges .
+This folders and files includes react lessons and knowledges . For live demos, click the icons on the right side of table! <br><br>
+Stock App and IMPRINT BLOG app could give an error after 2-3 months.(Node.js server might be down!!)(This note created at: 05/02/2024)
 <table>
   <theader>
     <tr>

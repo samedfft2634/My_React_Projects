@@ -17,7 +17,7 @@ This folders and files includes react lessons and knowledges .
      <tr id="2">
       <td>Stock APP</td>
       <td>
-        <a href="stock-app-rose.vercel.app" alt="STOCK">📦📅📊</a>
+        <a href="https://stock-app-rose.vercel.app" alt="STOCK">📦📅📊</a>
       </td>
     </tr>
        <tr id="3">
